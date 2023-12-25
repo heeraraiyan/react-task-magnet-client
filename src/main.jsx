@@ -12,6 +12,7 @@ import Login from './pages/Login.jsx';
 import AuthProvider from './provider/AuthProvider.jsx';
 import Dashboard from './pages/Dashboard.jsx';
 import Banner from './components/Banner.jsx';
+import About from './pages/About.jsx';
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: '/banner',
         element: <Banner></Banner>
+      },
+      {
+        path: '/about',
+        element: <About></About>
       }
     ]
   },

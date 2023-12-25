@@ -18,6 +18,9 @@ const Navbar = () => {
     </li>
     <li className="font-bold text-fuchsia-800 text-md"><NavLink to='/dashboard'>DashBoard</NavLink>
     </li>
+
+    <li className="font-bold text-fuchsia-800 text-md"><NavLink to='/about'>About Us</NavLink>
+    </li>
     
     
   
