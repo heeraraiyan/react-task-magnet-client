@@ -15,12 +15,38 @@ const Dashboard = () => {
 
                 <Draggable>
                     <div className="mx-4 my-2 bg-white">
-                        <div className="border-2 border-gray-300">
-                        <h1 className="text-2xl text-dark-100">
-                            hhhhhhhhh
+                        <div className="border-2 border-gray-300 p-5">
+                        <h1 className="text-2xl font-bold text-dark-100">
+                            1. Test Task
                         </h1>
                         <p className="text-dark-50">
-                            kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                        </p>
+                        </div>
+                    </div>
+                </Draggable>
+
+                <Draggable>
+                    <div className="mx-4 my-2 bg-white">
+                        <div className="border-2 border-gray-300 p-5">
+                        <h1 className="text-2xl font-bold text-dark-100">
+                            2. Test Task
+                        </h1>
+                        <p className="text-dark-50">
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                        </p>
+                        </div>
+                    </div>
+                </Draggable>
+
+                <Draggable>
+                    <div className="mx-4 my-2 bg-white">
+                        <div className="border-2 border-gray-300 p-5">
+                        <h1 className="text-2xl font-bold text-dark-100">
+                            3. Test Task
+                        </h1>
+                        <p className="text-dark-50">
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
                         </p>
                         </div>
                     </div>
@@ -29,11 +55,53 @@ const Dashboard = () => {
             </div>
             <div className="border-2 border-x-gray-50 bg-slate-700">
                 <h2 className="text-center text-3xl font-bold text-gray-200 my-4 italic">OnGoing</h2>
+
+                <Draggable>
+                    <div className="mx-4 my-2 bg-white">
+                        <div className="border-2 border-gray-300 p-5">
+                        <h1 className="text-2xl font-bold text-dark-100">
+                            1. Ongoing Task
+                        </h1>
+                        <p className="text-dark-50">
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                        </p>
+                        </div>
+                    </div>
+                </Draggable>
+
+                <Draggable>
+                    <div className="mx-4 my-2 bg-white">
+                        <div className="border-2 border-gray-300 p-5">
+                        <h1 className="text-2xl font-bold text-dark-100">
+                            2. Ongoing Task
+                        </h1>
+                        <p className="text-dark-50">
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                        </p>
+                        </div>
+                    </div>
+                </Draggable>
+                
                 
 
             </div>
             <div className="border-2 border-x-gray-50 bg-slate-700">
                 <h2 className="text-center text-3xl font-bold text-gray-200 my-4 italic ">Complete</h2>
+
+
+                <Draggable>
+                    <div className="mx-4 my-2 bg-white">
+                        <div className="border-2 border-gray-300 p-5">
+                        <h1 className="text-2xl font-bold text-dark-100">
+                            1. complete Task
+                        </h1>
+                        <p className="text-dark-50">
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                        </p>
+                        </div>
+                    </div>
+                </Draggable>
+                
                 
 
             </div>
