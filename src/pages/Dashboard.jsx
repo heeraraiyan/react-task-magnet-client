@@ -8,7 +8,7 @@ const Dashboard = () => {
         <Navbar></Navbar>
 
         <h1 className="text-5xl font-bold text-gray-950 italic mt-5  text-center">DASHBOARD</h1>
-         <div className="grid grid-cols-3 min-h-screen gap-10 max-w-7xl mx-auto mt-20 ">
+         <div className="grid grid-cols-1  lg:grid-cols-3 min-h-screen gap-10 max-w-7xl mx-auto mt-20 ">
 
             <div className="border-2 border-x-gray-50 bg-slate-700">
                 <h2 className="text-3xl text-center my-4 font-bold text-gray-200 italic">To Do </h2>

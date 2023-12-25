@@ -1,6 +1,7 @@
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import User from "../components/User";
 
 
 
@@ -9,6 +10,7 @@ const Home = () => {
         <div>
            <Navbar></Navbar>
            <Banner></Banner>
+           <User></User>
 
            <Footer></Footer>
             
