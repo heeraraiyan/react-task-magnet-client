@@ -10,6 +10,8 @@ import Home from './pages/Home.jsx';
 import Ragister from './pages/Ragister.jsx';
 import Login from './pages/Login.jsx';
 import AuthProvider from './provider/AuthProvider.jsx';
+import Dashboard from './pages/Dashboard.jsx';
+import Banner from './components/Banner.jsx';
 
 
 const router = createBrowserRouter([
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
       {
         path: '/login',
         element: <Login></Login>
+      },
+      {
+        path: '/dashboard',
+        element: <Dashboard></Dashboard>
+      },
+      {
+        path: '/banner',
+        element: <Banner></Banner>
       }
     ]
   },
